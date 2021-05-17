@@ -6,4 +6,5 @@ FROM gitpod/workspace-full
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN sudo apt install wkhtmltopdf -y
+RUN wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.buster_amd64.deb
+Run sudo dpkg -i wkhtmltox_0.12.6-1.buster_amd64.deb
