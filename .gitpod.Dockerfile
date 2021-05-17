@@ -6,4 +6,4 @@ FROM gitpod/workspace-full
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN sudo apt-get install wkhtmltopdf -y
+RUN sudo apt-get install wkhtmltopdf -y --fix-missing
